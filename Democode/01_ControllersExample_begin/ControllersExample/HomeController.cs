@@ -36,5 +36,11 @@ namespace ControllersExample
             ViewBag.Message = "ViewBag Example";
             return View();
         }
+
+        public IActionResult ViewDataExample()
+        {
+            ViewData["Message"] = "ViewData Example";
+            return View();
+        }
     }
 }
