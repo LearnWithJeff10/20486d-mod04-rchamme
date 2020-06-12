@@ -18,7 +18,8 @@ namespace ControllersExample
             return View(model);
         }
 
-        public IActionResult ParamExamble(string id)
+        // Corrected typo in line 22 (Examble to Example)
+        public IActionResult ParamExample(string id)
         {
             return Content("My param is: " + id);
         }
