@@ -17,5 +17,10 @@ namespace ControllersExample
             };
             return View(model);
         }
+
+        public IActionResult ParamExamble(string id)
+        {
+            return Content("My param is: " + id);
+        }
     }
 }
